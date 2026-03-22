@@ -1,0 +1,22 @@
+# 编辑器配置
+# https://editorconfig.org
+
+root = true
+
+[*]
+charset = utf-8
+insert_final_newline = true
+trim_trailing_whitespace = true
+
+[*.cs]
+indent_style = space
+indent_size = 4
+
+[*.csproj]
+charset = utf-8
+
+[*.Designer.cs]
+charset = utf-8
+
+[*.xml]
+charset = utf-8
