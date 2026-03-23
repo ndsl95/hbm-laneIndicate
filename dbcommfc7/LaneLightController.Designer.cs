@@ -1,4 +1,4 @@
-﻿
+
 using System.Drawing;
 using System.Net;
 using System.Net.Sockets;
@@ -80,16 +80,34 @@ namespace dbcommfc7
             this.左洞慢车道指示器2 = new System.Windows.Forms.Button();
             this.左洞慢车道指示器1 = new System.Windows.Forms.Button();
             this.Background = new System.Windows.Forms.PictureBox();
+            this.label2 = new System.Windows.Forms.Label();
+            this.label3 = new System.Windows.Forms.Label();
+            this.label4 = new System.Windows.Forms.Label();
+            this.label5 = new System.Windows.Forms.Label();
+            this.label6 = new System.Windows.Forms.Label();
+            this.label7 = new System.Windows.Forms.Label();
+            this.label8 = new System.Windows.Forms.Label();
+            this.label9 = new System.Windows.Forms.Label();
+            this.label10 = new System.Windows.Forms.Label();
+            this.label11 = new System.Windows.Forms.Label();
+            this.label12 = new System.Windows.Forms.Label();
+            this.label13 = new System.Windows.Forms.Label();
+            this.label14 = new System.Windows.Forms.Label();
+            this.label15 = new System.Windows.Forms.Label();
+            this.label16 = new System.Windows.Forms.Label();
+            this.label17 = new System.Windows.Forms.Label();
+            this.label18 = new System.Windows.Forms.Label();
+            this.label19 = new System.Windows.Forms.Label();
             ((System.ComponentModel.ISupportInitialize)(this.Background)).BeginInit();
             this.SuspendLayout();
             // 
             // logTextBox
             // 
-            this.logTextBox.Location = new System.Drawing.Point(957, 445);
+            this.logTextBox.Location = new System.Drawing.Point(839, 520);
             this.logTextBox.Name = "logTextBox";
             this.logTextBox.ReadOnly = true;
             this.logTextBox.ScrollBars = System.Windows.Forms.RichTextBoxScrollBars.ForcedBoth;
-            this.logTextBox.Size = new System.Drawing.Size(381, 199);
+            this.logTextBox.Size = new System.Drawing.Size(504, 199);
             this.logTextBox.TabIndex = 0;
             this.logTextBox.Text = "";
             // 
@@ -136,7 +154,7 @@ namespace dbcommfc7
             this.richTextBox3.BackColor = System.Drawing.Color.DarkGray;
             this.richTextBox3.Font = new System.Drawing.Font("宋体", 26.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
             this.richTextBox3.ForeColor = System.Drawing.Color.DarkRed;
-            this.richTextBox3.Location = new System.Drawing.Point(1164, 383);
+            this.richTextBox3.Location = new System.Drawing.Point(1164, 463);
             this.richTextBox3.Name = "richTextBox3";
             this.richTextBox3.Size = new System.Drawing.Size(175, 50);
             this.richTextBox3.TabIndex = 8;
@@ -147,7 +165,7 @@ namespace dbcommfc7
             this.richTextBox4.BackColor = System.Drawing.Color.DarkGray;
             this.richTextBox4.Font = new System.Drawing.Font("宋体", 26.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
             this.richTextBox4.ForeColor = System.Drawing.Color.Lime;
-            this.richTextBox4.Location = new System.Drawing.Point(14, 383);
+            this.richTextBox4.Location = new System.Drawing.Point(14, 459);
             this.richTextBox4.Name = "richTextBox4";
             this.richTextBox4.Size = new System.Drawing.Size(175, 50);
             this.richTextBox4.TabIndex = 7;
@@ -170,7 +188,7 @@ namespace dbcommfc7
             this.右洞超车道指示器9.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.右洞超车道指示器9.ImageKey = "右指示灯.png";
             this.右洞超车道指示器9.ImageList = this.车道指示器按钮图片集;
-            this.右洞超车道指示器9.Location = new System.Drawing.Point(100, 223);
+            this.右洞超车道指示器9.Location = new System.Drawing.Point(100, 262);
             this.右洞超车道指示器9.Name = "右洞超车道指示器9";
             this.右洞超车道指示器9.RightToLeft = System.Windows.Forms.RightToLeft.Yes;
             this.右洞超车道指示器9.Size = new System.Drawing.Size(28, 28);
@@ -184,7 +202,7 @@ namespace dbcommfc7
             this.右洞超车道指示器8.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.右洞超车道指示器8.ImageKey = "右指示灯.png";
             this.右洞超车道指示器8.ImageList = this.车道指示器按钮图片集;
-            this.右洞超车道指示器8.Location = new System.Drawing.Point(225, 223);
+            this.右洞超车道指示器8.Location = new System.Drawing.Point(225, 262);
             this.右洞超车道指示器8.Name = "右洞超车道指示器8";
             this.右洞超车道指示器8.RightToLeft = System.Windows.Forms.RightToLeft.Yes;
             this.右洞超车道指示器8.Size = new System.Drawing.Size(28, 28);
@@ -198,7 +216,7 @@ namespace dbcommfc7
             this.右洞超车道指示器7.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.右洞超车道指示器7.ImageKey = "右指示灯.png";
             this.右洞超车道指示器7.ImageList = this.车道指示器按钮图片集;
-            this.右洞超车道指示器7.Location = new System.Drawing.Point(376, 223);
+            this.右洞超车道指示器7.Location = new System.Drawing.Point(376, 262);
             this.右洞超车道指示器7.Name = "右洞超车道指示器7";
             this.右洞超车道指示器7.RightToLeft = System.Windows.Forms.RightToLeft.Yes;
             this.右洞超车道指示器7.Size = new System.Drawing.Size(28, 28);
@@ -212,7 +230,7 @@ namespace dbcommfc7
             this.右洞超车道指示器6.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.右洞超车道指示器6.ImageKey = "右指示灯.png";
             this.右洞超车道指示器6.ImageList = this.车道指示器按钮图片集;
-            this.右洞超车道指示器6.Location = new System.Drawing.Point(514, 223);
+            this.右洞超车道指示器6.Location = new System.Drawing.Point(514, 262);
             this.右洞超车道指示器6.Name = "右洞超车道指示器6";
             this.右洞超车道指示器6.RightToLeft = System.Windows.Forms.RightToLeft.Yes;
             this.右洞超车道指示器6.Size = new System.Drawing.Size(28, 28);
@@ -226,7 +244,7 @@ namespace dbcommfc7
             this.右洞超车道指示器5.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.右洞超车道指示器5.ImageKey = "右指示灯.png";
             this.右洞超车道指示器5.ImageList = this.车道指示器按钮图片集;
-            this.右洞超车道指示器5.Location = new System.Drawing.Point(721, 223);
+            this.右洞超车道指示器5.Location = new System.Drawing.Point(753, 262);
             this.右洞超车道指示器5.Name = "右洞超车道指示器5";
             this.右洞超车道指示器5.RightToLeft = System.Windows.Forms.RightToLeft.Yes;
             this.右洞超车道指示器5.Size = new System.Drawing.Size(28, 28);
@@ -240,7 +258,7 @@ namespace dbcommfc7
             this.右洞超车道指示器4.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.右洞超车道指示器4.ImageKey = "右指示灯.png";
             this.右洞超车道指示器4.ImageList = this.车道指示器按钮图片集;
-            this.右洞超车道指示器4.Location = new System.Drawing.Point(875, 223);
+            this.右洞超车道指示器4.Location = new System.Drawing.Point(893, 262);
             this.右洞超车道指示器4.Name = "右洞超车道指示器4";
             this.右洞超车道指示器4.RightToLeft = System.Windows.Forms.RightToLeft.Yes;
             this.右洞超车道指示器4.Size = new System.Drawing.Size(28, 28);
@@ -254,7 +272,7 @@ namespace dbcommfc7
             this.右洞超车道指示器3.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.右洞超车道指示器3.ImageKey = "右指示灯.png";
             this.右洞超车道指示器3.ImageList = this.车道指示器按钮图片集;
-            this.右洞超车道指示器3.Location = new System.Drawing.Point(1068, 223);
+            this.右洞超车道指示器3.Location = new System.Drawing.Point(1068, 262);
             this.右洞超车道指示器3.Name = "右洞超车道指示器3";
             this.右洞超车道指示器3.RightToLeft = System.Windows.Forms.RightToLeft.Yes;
             this.右洞超车道指示器3.Size = new System.Drawing.Size(28, 28);
@@ -268,7 +286,7 @@ namespace dbcommfc7
             this.右洞超车道指示器2.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.右洞超车道指示器2.ImageKey = "右指示灯.png";
             this.右洞超车道指示器2.ImageList = this.车道指示器按钮图片集;
-            this.右洞超车道指示器2.Location = new System.Drawing.Point(1192, 223);
+            this.右洞超车道指示器2.Location = new System.Drawing.Point(1192, 262);
             this.右洞超车道指示器2.Name = "右洞超车道指示器2";
             this.右洞超车道指示器2.RightToLeft = System.Windows.Forms.RightToLeft.Yes;
             this.右洞超车道指示器2.Size = new System.Drawing.Size(28, 28);
@@ -282,7 +300,7 @@ namespace dbcommfc7
             this.右洞超车道指示器1.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.右洞超车道指示器1.ImageKey = "右指示灯.png";
             this.右洞超车道指示器1.ImageList = this.车道指示器按钮图片集;
-            this.右洞超车道指示器1.Location = new System.Drawing.Point(1290, 223);
+            this.右洞超车道指示器1.Location = new System.Drawing.Point(1290, 262);
             this.右洞超车道指示器1.Name = "右洞超车道指示器1";
             this.右洞超车道指示器1.RightToLeft = System.Windows.Forms.RightToLeft.Yes;
             this.右洞超车道指示器1.Size = new System.Drawing.Size(28, 35);
@@ -296,7 +314,7 @@ namespace dbcommfc7
             this.右洞行车道指示器9.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.右洞行车道指示器9.ImageKey = "右指示灯.png";
             this.右洞行车道指示器9.ImageList = this.车道指示器按钮图片集;
-            this.右洞行车道指示器9.Location = new System.Drawing.Point(100, 261);
+            this.右洞行车道指示器9.Location = new System.Drawing.Point(100, 307);
             this.右洞行车道指示器9.Name = "右洞行车道指示器9";
             this.右洞行车道指示器9.RightToLeft = System.Windows.Forms.RightToLeft.Yes;
             this.右洞行车道指示器9.Size = new System.Drawing.Size(28, 28);
@@ -310,7 +328,7 @@ namespace dbcommfc7
             this.右洞行车道指示器8.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.右洞行车道指示器8.ImageKey = "右指示灯.png";
             this.右洞行车道指示器8.ImageList = this.车道指示器按钮图片集;
-            this.右洞行车道指示器8.Location = new System.Drawing.Point(225, 261);
+            this.右洞行车道指示器8.Location = new System.Drawing.Point(225, 307);
             this.右洞行车道指示器8.Name = "右洞行车道指示器8";
             this.右洞行车道指示器8.RightToLeft = System.Windows.Forms.RightToLeft.Yes;
             this.右洞行车道指示器8.Size = new System.Drawing.Size(28, 28);
@@ -324,7 +342,7 @@ namespace dbcommfc7
             this.右洞行车道指示器7.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.右洞行车道指示器7.ImageKey = "右指示灯.png";
             this.右洞行车道指示器7.ImageList = this.车道指示器按钮图片集;
-            this.右洞行车道指示器7.Location = new System.Drawing.Point(376, 261);
+            this.右洞行车道指示器7.Location = new System.Drawing.Point(376, 307);
             this.右洞行车道指示器7.Name = "右洞行车道指示器7";
             this.右洞行车道指示器7.RightToLeft = System.Windows.Forms.RightToLeft.Yes;
             this.右洞行车道指示器7.Size = new System.Drawing.Size(28, 28);
@@ -338,7 +356,7 @@ namespace dbcommfc7
             this.右洞行车道指示器6.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.右洞行车道指示器6.ImageKey = "右指示灯.png";
             this.右洞行车道指示器6.ImageList = this.车道指示器按钮图片集;
-            this.右洞行车道指示器6.Location = new System.Drawing.Point(514, 261);
+            this.右洞行车道指示器6.Location = new System.Drawing.Point(514, 307);
             this.右洞行车道指示器6.Name = "右洞行车道指示器6";
             this.右洞行车道指示器6.RightToLeft = System.Windows.Forms.RightToLeft.Yes;
             this.右洞行车道指示器6.Size = new System.Drawing.Size(28, 28);
@@ -352,7 +370,7 @@ namespace dbcommfc7
             this.右洞行车道指示器5.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.右洞行车道指示器5.ImageKey = "右指示灯.png";
             this.右洞行车道指示器5.ImageList = this.车道指示器按钮图片集;
-            this.右洞行车道指示器5.Location = new System.Drawing.Point(721, 261);
+            this.右洞行车道指示器5.Location = new System.Drawing.Point(753, 307);
             this.右洞行车道指示器5.Name = "右洞行车道指示器5";
             this.右洞行车道指示器5.RightToLeft = System.Windows.Forms.RightToLeft.Yes;
             this.右洞行车道指示器5.Size = new System.Drawing.Size(28, 28);
@@ -366,7 +384,7 @@ namespace dbcommfc7
             this.右洞行车道指示器4.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.右洞行车道指示器4.ImageKey = "右指示灯.png";
             this.右洞行车道指示器4.ImageList = this.车道指示器按钮图片集;
-            this.右洞行车道指示器4.Location = new System.Drawing.Point(875, 261);
+            this.右洞行车道指示器4.Location = new System.Drawing.Point(893, 307);
             this.右洞行车道指示器4.Name = "右洞行车道指示器4";
             this.右洞行车道指示器4.RightToLeft = System.Windows.Forms.RightToLeft.Yes;
             this.右洞行车道指示器4.Size = new System.Drawing.Size(28, 28);
@@ -380,7 +398,7 @@ namespace dbcommfc7
             this.右洞行车道指示器3.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.右洞行车道指示器3.ImageKey = "右指示灯.png";
             this.右洞行车道指示器3.ImageList = this.车道指示器按钮图片集;
-            this.右洞行车道指示器3.Location = new System.Drawing.Point(1068, 261);
+            this.右洞行车道指示器3.Location = new System.Drawing.Point(1068, 307);
             this.右洞行车道指示器3.Name = "右洞行车道指示器3";
             this.右洞行车道指示器3.RightToLeft = System.Windows.Forms.RightToLeft.Yes;
             this.右洞行车道指示器3.Size = new System.Drawing.Size(28, 28);
@@ -394,7 +412,7 @@ namespace dbcommfc7
             this.右洞行车道指示器2.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.右洞行车道指示器2.ImageKey = "右指示灯.png";
             this.右洞行车道指示器2.ImageList = this.车道指示器按钮图片集;
-            this.右洞行车道指示器2.Location = new System.Drawing.Point(1192, 261);
+            this.右洞行车道指示器2.Location = new System.Drawing.Point(1192, 307);
             this.右洞行车道指示器2.Name = "右洞行车道指示器2";
             this.右洞行车道指示器2.RightToLeft = System.Windows.Forms.RightToLeft.Yes;
             this.右洞行车道指示器2.Size = new System.Drawing.Size(28, 28);
@@ -408,7 +426,7 @@ namespace dbcommfc7
             this.右洞行车道指示器1.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.右洞行车道指示器1.ImageKey = "右指示灯.png";
             this.右洞行车道指示器1.ImageList = this.车道指示器按钮图片集;
-            this.右洞行车道指示器1.Location = new System.Drawing.Point(1290, 261);
+            this.右洞行车道指示器1.Location = new System.Drawing.Point(1290, 307);
             this.右洞行车道指示器1.Name = "右洞行车道指示器1";
             this.右洞行车道指示器1.RightToLeft = System.Windows.Forms.RightToLeft.Yes;
             this.右洞行车道指示器1.Size = new System.Drawing.Size(28, 28);
@@ -422,7 +440,7 @@ namespace dbcommfc7
             this.右洞慢车道指示器9.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.右洞慢车道指示器9.ImageKey = "右指示灯.png";
             this.右洞慢车道指示器9.ImageList = this.车道指示器按钮图片集;
-            this.右洞慢车道指示器9.Location = new System.Drawing.Point(100, 296);
+            this.右洞慢车道指示器9.Location = new System.Drawing.Point(100, 350);
             this.右洞慢车道指示器9.Name = "右洞慢车道指示器9";
             this.右洞慢车道指示器9.RightToLeft = System.Windows.Forms.RightToLeft.Yes;
             this.右洞慢车道指示器9.Size = new System.Drawing.Size(28, 28);
@@ -436,7 +454,7 @@ namespace dbcommfc7
             this.右洞慢车道指示器8.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.右洞慢车道指示器8.ImageKey = "右指示灯.png";
             this.右洞慢车道指示器8.ImageList = this.车道指示器按钮图片集;
-            this.右洞慢车道指示器8.Location = new System.Drawing.Point(225, 296);
+            this.右洞慢车道指示器8.Location = new System.Drawing.Point(225, 350);
             this.右洞慢车道指示器8.Name = "右洞慢车道指示器8";
             this.右洞慢车道指示器8.RightToLeft = System.Windows.Forms.RightToLeft.Yes;
             this.右洞慢车道指示器8.Size = new System.Drawing.Size(28, 28);
@@ -450,7 +468,7 @@ namespace dbcommfc7
             this.右洞慢车道指示器7.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.右洞慢车道指示器7.ImageKey = "右指示灯.png";
             this.右洞慢车道指示器7.ImageList = this.车道指示器按钮图片集;
-            this.右洞慢车道指示器7.Location = new System.Drawing.Point(376, 296);
+            this.右洞慢车道指示器7.Location = new System.Drawing.Point(376, 350);
             this.右洞慢车道指示器7.Name = "右洞慢车道指示器7";
             this.右洞慢车道指示器7.RightToLeft = System.Windows.Forms.RightToLeft.Yes;
             this.右洞慢车道指示器7.Size = new System.Drawing.Size(28, 28);
@@ -464,7 +482,7 @@ namespace dbcommfc7
             this.右洞慢车道指示器6.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.右洞慢车道指示器6.ImageKey = "右指示灯.png";
             this.右洞慢车道指示器6.ImageList = this.车道指示器按钮图片集;
-            this.右洞慢车道指示器6.Location = new System.Drawing.Point(514, 296);
+            this.右洞慢车道指示器6.Location = new System.Drawing.Point(514, 350);
             this.右洞慢车道指示器6.Name = "右洞慢车道指示器6";
             this.右洞慢车道指示器6.RightToLeft = System.Windows.Forms.RightToLeft.Yes;
             this.右洞慢车道指示器6.Size = new System.Drawing.Size(28, 28);
@@ -478,7 +496,7 @@ namespace dbcommfc7
             this.右洞慢车道指示器5.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.右洞慢车道指示器5.ImageKey = "右指示灯.png";
             this.右洞慢车道指示器5.ImageList = this.车道指示器按钮图片集;
-            this.右洞慢车道指示器5.Location = new System.Drawing.Point(721, 296);
+            this.右洞慢车道指示器5.Location = new System.Drawing.Point(753, 350);
             this.右洞慢车道指示器5.Name = "右洞慢车道指示器5";
             this.右洞慢车道指示器5.RightToLeft = System.Windows.Forms.RightToLeft.Yes;
             this.右洞慢车道指示器5.Size = new System.Drawing.Size(28, 28);
@@ -492,7 +510,7 @@ namespace dbcommfc7
             this.右洞慢车道指示器4.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.右洞慢车道指示器4.ImageKey = "右指示灯.png";
             this.右洞慢车道指示器4.ImageList = this.车道指示器按钮图片集;
-            this.右洞慢车道指示器4.Location = new System.Drawing.Point(875, 296);
+            this.右洞慢车道指示器4.Location = new System.Drawing.Point(893, 350);
             this.右洞慢车道指示器4.Name = "右洞慢车道指示器4";
             this.右洞慢车道指示器4.RightToLeft = System.Windows.Forms.RightToLeft.Yes;
             this.右洞慢车道指示器4.Size = new System.Drawing.Size(28, 28);
@@ -506,7 +524,7 @@ namespace dbcommfc7
             this.右洞慢车道指示器3.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.右洞慢车道指示器3.ImageKey = "右指示灯.png";
             this.右洞慢车道指示器3.ImageList = this.车道指示器按钮图片集;
-            this.右洞慢车道指示器3.Location = new System.Drawing.Point(1068, 296);
+            this.右洞慢车道指示器3.Location = new System.Drawing.Point(1068, 350);
             this.右洞慢车道指示器3.Name = "右洞慢车道指示器3";
             this.右洞慢车道指示器3.RightToLeft = System.Windows.Forms.RightToLeft.Yes;
             this.右洞慢车道指示器3.Size = new System.Drawing.Size(28, 28);
@@ -520,7 +538,7 @@ namespace dbcommfc7
             this.右洞慢车道指示器2.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.右洞慢车道指示器2.ImageKey = "右指示灯.png";
             this.右洞慢车道指示器2.ImageList = this.车道指示器按钮图片集;
-            this.右洞慢车道指示器2.Location = new System.Drawing.Point(1192, 296);
+            this.右洞慢车道指示器2.Location = new System.Drawing.Point(1192, 350);
             this.右洞慢车道指示器2.Name = "右洞慢车道指示器2";
             this.右洞慢车道指示器2.RightToLeft = System.Windows.Forms.RightToLeft.Yes;
             this.右洞慢车道指示器2.Size = new System.Drawing.Size(28, 28);
@@ -534,7 +552,7 @@ namespace dbcommfc7
             this.右洞慢车道指示器1.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.右洞慢车道指示器1.ImageKey = "右指示灯.png";
             this.右洞慢车道指示器1.ImageList = this.车道指示器按钮图片集;
-            this.右洞慢车道指示器1.Location = new System.Drawing.Point(1290, 296);
+            this.右洞慢车道指示器1.Location = new System.Drawing.Point(1290, 350);
             this.右洞慢车道指示器1.Name = "右洞慢车道指示器1";
             this.右洞慢车道指示器1.RightToLeft = System.Windows.Forms.RightToLeft.Yes;
             this.右洞慢车道指示器1.Size = new System.Drawing.Size(28, 28);
@@ -548,7 +566,7 @@ namespace dbcommfc7
             this.左洞超车道指示器9.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.左洞超车道指示器9.ImageKey = "左指示灯.png";
             this.左洞超车道指示器9.ImageList = this.车道指示器按钮图片集;
-            this.左洞超车道指示器9.Location = new System.Drawing.Point(100, 149);
+            this.左洞超车道指示器9.Location = new System.Drawing.Point(100, 190);
             this.左洞超车道指示器9.Name = "左洞超车道指示器9";
             this.左洞超车道指示器9.RightToLeft = System.Windows.Forms.RightToLeft.Yes;
             this.左洞超车道指示器9.Size = new System.Drawing.Size(28, 28);
@@ -562,7 +580,7 @@ namespace dbcommfc7
             this.左洞超车道指示器8.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.左洞超车道指示器8.ImageKey = "左指示灯.png";
             this.左洞超车道指示器8.ImageList = this.车道指示器按钮图片集;
-            this.左洞超车道指示器8.Location = new System.Drawing.Point(225, 149);
+            this.左洞超车道指示器8.Location = new System.Drawing.Point(225, 190);
             this.左洞超车道指示器8.Name = "左洞超车道指示器8";
             this.左洞超车道指示器8.RightToLeft = System.Windows.Forms.RightToLeft.Yes;
             this.左洞超车道指示器8.Size = new System.Drawing.Size(28, 28);
@@ -576,7 +594,7 @@ namespace dbcommfc7
             this.左洞超车道指示器7.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.左洞超车道指示器7.ImageKey = "左指示灯.png";
             this.左洞超车道指示器7.ImageList = this.车道指示器按钮图片集;
-            this.左洞超车道指示器7.Location = new System.Drawing.Point(376, 149);
+            this.左洞超车道指示器7.Location = new System.Drawing.Point(376, 190);
             this.左洞超车道指示器7.Name = "左洞超车道指示器7";
             this.左洞超车道指示器7.RightToLeft = System.Windows.Forms.RightToLeft.Yes;
             this.左洞超车道指示器7.Size = new System.Drawing.Size(28, 28);
@@ -590,7 +608,7 @@ namespace dbcommfc7
             this.左洞超车道指示器6.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.左洞超车道指示器6.ImageKey = "左指示灯.png";
             this.左洞超车道指示器6.ImageList = this.车道指示器按钮图片集;
-            this.左洞超车道指示器6.Location = new System.Drawing.Point(514, 149);
+            this.左洞超车道指示器6.Location = new System.Drawing.Point(514, 190);
             this.左洞超车道指示器6.Name = "左洞超车道指示器6";
             this.左洞超车道指示器6.RightToLeft = System.Windows.Forms.RightToLeft.Yes;
             this.左洞超车道指示器6.Size = new System.Drawing.Size(28, 28);
@@ -605,7 +623,7 @@ namespace dbcommfc7
             this.左洞超车道指示器5.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.左洞超车道指示器5.ImageKey = "左指示灯.png";
             this.左洞超车道指示器5.ImageList = this.车道指示器按钮图片集;
-            this.左洞超车道指示器5.Location = new System.Drawing.Point(721, 149);
+            this.左洞超车道指示器5.Location = new System.Drawing.Point(753, 190);
             this.左洞超车道指示器5.Name = "左洞超车道指示器5";
             this.左洞超车道指示器5.RightToLeft = System.Windows.Forms.RightToLeft.Yes;
             this.左洞超车道指示器5.Size = new System.Drawing.Size(28, 28);
@@ -620,7 +638,7 @@ namespace dbcommfc7
             this.左洞超车道指示器4.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.左洞超车道指示器4.ImageKey = "左指示灯.png";
             this.左洞超车道指示器4.ImageList = this.车道指示器按钮图片集;
-            this.左洞超车道指示器4.Location = new System.Drawing.Point(875, 149);
+            this.左洞超车道指示器4.Location = new System.Drawing.Point(893, 190);
             this.左洞超车道指示器4.Name = "左洞超车道指示器4";
             this.左洞超车道指示器4.RightToLeft = System.Windows.Forms.RightToLeft.Yes;
             this.左洞超车道指示器4.Size = new System.Drawing.Size(28, 28);
@@ -634,7 +652,7 @@ namespace dbcommfc7
             this.左洞超车道指示器3.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.左洞超车道指示器3.ImageKey = "左指示灯.png";
             this.左洞超车道指示器3.ImageList = this.车道指示器按钮图片集;
-            this.左洞超车道指示器3.Location = new System.Drawing.Point(1088, 149);
+            this.左洞超车道指示器3.Location = new System.Drawing.Point(1070, 190);
             this.左洞超车道指示器3.Name = "左洞超车道指示器3";
             this.左洞超车道指示器3.RightToLeft = System.Windows.Forms.RightToLeft.Yes;
             this.左洞超车道指示器3.Size = new System.Drawing.Size(28, 28);
@@ -648,7 +666,7 @@ namespace dbcommfc7
             this.左洞超车道指示器2.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.左洞超车道指示器2.ImageKey = "左指示灯.png";
             this.左洞超车道指示器2.ImageList = this.车道指示器按钮图片集;
-            this.左洞超车道指示器2.Location = new System.Drawing.Point(1192, 149);
+            this.左洞超车道指示器2.Location = new System.Drawing.Point(1192, 190);
             this.左洞超车道指示器2.Name = "左洞超车道指示器2";
             this.左洞超车道指示器2.RightToLeft = System.Windows.Forms.RightToLeft.Yes;
             this.左洞超车道指示器2.Size = new System.Drawing.Size(28, 28);
@@ -662,7 +680,7 @@ namespace dbcommfc7
             this.左洞超车道指示器1.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.左洞超车道指示器1.ImageKey = "左指示灯.png";
             this.左洞超车道指示器1.ImageList = this.车道指示器按钮图片集;
-            this.左洞超车道指示器1.Location = new System.Drawing.Point(1290, 149);
+            this.左洞超车道指示器1.Location = new System.Drawing.Point(1290, 190);
             this.左洞超车道指示器1.Name = "左洞超车道指示器1";
             this.左洞超车道指示器1.RightToLeft = System.Windows.Forms.RightToLeft.Yes;
             this.左洞超车道指示器1.Size = new System.Drawing.Size(28, 28);
@@ -676,7 +694,7 @@ namespace dbcommfc7
             this.左洞行车道指示器9.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.左洞行车道指示器9.ImageKey = "左指示灯.png";
             this.左洞行车道指示器9.ImageList = this.车道指示器按钮图片集;
-            this.左洞行车道指示器9.Location = new System.Drawing.Point(100, 114);
+            this.左洞行车道指示器9.Location = new System.Drawing.Point(100, 148);
             this.左洞行车道指示器9.Name = "左洞行车道指示器9";
             this.左洞行车道指示器9.RightToLeft = System.Windows.Forms.RightToLeft.Yes;
             this.左洞行车道指示器9.Size = new System.Drawing.Size(28, 28);
@@ -690,7 +708,7 @@ namespace dbcommfc7
             this.左洞行车道指示器8.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.左洞行车道指示器8.ImageKey = "左指示灯.png";
             this.左洞行车道指示器8.ImageList = this.车道指示器按钮图片集;
-            this.左洞行车道指示器8.Location = new System.Drawing.Point(225, 114);
+            this.左洞行车道指示器8.Location = new System.Drawing.Point(225, 148);
             this.左洞行车道指示器8.Name = "左洞行车道指示器8";
             this.左洞行车道指示器8.RightToLeft = System.Windows.Forms.RightToLeft.Yes;
             this.左洞行车道指示器8.Size = new System.Drawing.Size(28, 28);
@@ -704,7 +722,7 @@ namespace dbcommfc7
             this.左洞行车道指示器7.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.左洞行车道指示器7.ImageKey = "左指示灯.png";
             this.左洞行车道指示器7.ImageList = this.车道指示器按钮图片集;
-            this.左洞行车道指示器7.Location = new System.Drawing.Point(376, 114);
+            this.左洞行车道指示器7.Location = new System.Drawing.Point(376, 148);
             this.左洞行车道指示器7.Name = "左洞行车道指示器7";
             this.左洞行车道指示器7.RightToLeft = System.Windows.Forms.RightToLeft.Yes;
             this.左洞行车道指示器7.Size = new System.Drawing.Size(28, 28);
@@ -718,7 +736,7 @@ namespace dbcommfc7
             this.左洞行车道指示器6.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.左洞行车道指示器6.ImageKey = "左指示灯.png";
             this.左洞行车道指示器6.ImageList = this.车道指示器按钮图片集;
-            this.左洞行车道指示器6.Location = new System.Drawing.Point(514, 114);
+            this.左洞行车道指示器6.Location = new System.Drawing.Point(514, 148);
             this.左洞行车道指示器6.Name = "左洞行车道指示器6";
             this.左洞行车道指示器6.RightToLeft = System.Windows.Forms.RightToLeft.Yes;
             this.左洞行车道指示器6.Size = new System.Drawing.Size(28, 28);
@@ -733,7 +751,7 @@ namespace dbcommfc7
             this.左洞行车道指示器5.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.左洞行车道指示器5.ImageKey = "左指示灯.png";
             this.左洞行车道指示器5.ImageList = this.车道指示器按钮图片集;
-            this.左洞行车道指示器5.Location = new System.Drawing.Point(721, 114);
+            this.左洞行车道指示器5.Location = new System.Drawing.Point(753, 148);
             this.左洞行车道指示器5.Name = "左洞行车道指示器5";
             this.左洞行车道指示器5.RightToLeft = System.Windows.Forms.RightToLeft.Yes;
             this.左洞行车道指示器5.Size = new System.Drawing.Size(28, 28);
@@ -748,7 +766,7 @@ namespace dbcommfc7
             this.左洞行车道指示器4.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.左洞行车道指示器4.ImageKey = "左指示灯.png";
             this.左洞行车道指示器4.ImageList = this.车道指示器按钮图片集;
-            this.左洞行车道指示器4.Location = new System.Drawing.Point(875, 114);
+            this.左洞行车道指示器4.Location = new System.Drawing.Point(893, 148);
             this.左洞行车道指示器4.Name = "左洞行车道指示器4";
             this.左洞行车道指示器4.RightToLeft = System.Windows.Forms.RightToLeft.Yes;
             this.左洞行车道指示器4.Size = new System.Drawing.Size(28, 28);
@@ -762,7 +780,7 @@ namespace dbcommfc7
             this.左洞行车道指示器3.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.左洞行车道指示器3.ImageKey = "左指示灯.png";
             this.左洞行车道指示器3.ImageList = this.车道指示器按钮图片集;
-            this.左洞行车道指示器3.Location = new System.Drawing.Point(1088, 114);
+            this.左洞行车道指示器3.Location = new System.Drawing.Point(1070, 148);
             this.左洞行车道指示器3.Name = "左洞行车道指示器3";
             this.左洞行车道指示器3.RightToLeft = System.Windows.Forms.RightToLeft.Yes;
             this.左洞行车道指示器3.Size = new System.Drawing.Size(28, 28);
@@ -776,7 +794,7 @@ namespace dbcommfc7
             this.左洞行车道指示器2.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.左洞行车道指示器2.ImageKey = "左指示灯.png";
             this.左洞行车道指示器2.ImageList = this.车道指示器按钮图片集;
-            this.左洞行车道指示器2.Location = new System.Drawing.Point(1192, 114);
+            this.左洞行车道指示器2.Location = new System.Drawing.Point(1192, 148);
             this.左洞行车道指示器2.Name = "左洞行车道指示器2";
             this.左洞行车道指示器2.RightToLeft = System.Windows.Forms.RightToLeft.Yes;
             this.左洞行车道指示器2.Size = new System.Drawing.Size(28, 28);
@@ -790,7 +808,7 @@ namespace dbcommfc7
             this.左洞行车道指示器1.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.左洞行车道指示器1.ImageKey = "左指示灯.png";
             this.左洞行车道指示器1.ImageList = this.车道指示器按钮图片集;
-            this.左洞行车道指示器1.Location = new System.Drawing.Point(1290, 114);
+            this.左洞行车道指示器1.Location = new System.Drawing.Point(1290, 148);
             this.左洞行车道指示器1.Name = "左洞行车道指示器1";
             this.左洞行车道指示器1.RightToLeft = System.Windows.Forms.RightToLeft.Yes;
             this.左洞行车道指示器1.Size = new System.Drawing.Size(28, 28);
@@ -804,7 +822,7 @@ namespace dbcommfc7
             this.左洞慢车道指示器9.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.左洞慢车道指示器9.ImageKey = "左指示灯.png";
             this.左洞慢车道指示器9.ImageList = this.车道指示器按钮图片集;
-            this.左洞慢车道指示器9.Location = new System.Drawing.Point(100, 76);
+            this.左洞慢车道指示器9.Location = new System.Drawing.Point(100, 103);
             this.左洞慢车道指示器9.Name = "左洞慢车道指示器9";
             this.左洞慢车道指示器9.RightToLeft = System.Windows.Forms.RightToLeft.Yes;
             this.左洞慢车道指示器9.Size = new System.Drawing.Size(28, 35);
@@ -818,7 +836,7 @@ namespace dbcommfc7
             this.左洞慢车道指示器8.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.左洞慢车道指示器8.ImageKey = "左指示灯.png";
             this.左洞慢车道指示器8.ImageList = this.车道指示器按钮图片集;
-            this.左洞慢车道指示器8.Location = new System.Drawing.Point(225, 76);
+            this.左洞慢车道指示器8.Location = new System.Drawing.Point(225, 103);
             this.左洞慢车道指示器8.Name = "左洞慢车道指示器8";
             this.左洞慢车道指示器8.RightToLeft = System.Windows.Forms.RightToLeft.Yes;
             this.左洞慢车道指示器8.Size = new System.Drawing.Size(28, 35);
@@ -832,7 +850,7 @@ namespace dbcommfc7
             this.左洞慢车道指示器7.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.左洞慢车道指示器7.ImageKey = "左指示灯.png";
             this.左洞慢车道指示器7.ImageList = this.车道指示器按钮图片集;
-            this.左洞慢车道指示器7.Location = new System.Drawing.Point(376, 76);
+            this.左洞慢车道指示器7.Location = new System.Drawing.Point(376, 103);
             this.左洞慢车道指示器7.Name = "左洞慢车道指示器7";
             this.左洞慢车道指示器7.RightToLeft = System.Windows.Forms.RightToLeft.Yes;
             this.左洞慢车道指示器7.Size = new System.Drawing.Size(28, 35);
@@ -846,7 +864,7 @@ namespace dbcommfc7
             this.左洞慢车道指示器6.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.左洞慢车道指示器6.ImageKey = "左指示灯.png";
             this.左洞慢车道指示器6.ImageList = this.车道指示器按钮图片集;
-            this.左洞慢车道指示器6.Location = new System.Drawing.Point(514, 76);
+            this.左洞慢车道指示器6.Location = new System.Drawing.Point(514, 103);
             this.左洞慢车道指示器6.Name = "左洞慢车道指示器6";
             this.左洞慢车道指示器6.RightToLeft = System.Windows.Forms.RightToLeft.Yes;
             this.左洞慢车道指示器6.Size = new System.Drawing.Size(28, 35);
@@ -861,7 +879,7 @@ namespace dbcommfc7
             this.左洞慢车道指示器5.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.左洞慢车道指示器5.ImageKey = "左指示灯.png";
             this.左洞慢车道指示器5.ImageList = this.车道指示器按钮图片集;
-            this.左洞慢车道指示器5.Location = new System.Drawing.Point(721, 76);
+            this.左洞慢车道指示器5.Location = new System.Drawing.Point(753, 103);
             this.左洞慢车道指示器5.Name = "左洞慢车道指示器5";
             this.左洞慢车道指示器5.RightToLeft = System.Windows.Forms.RightToLeft.Yes;
             this.左洞慢车道指示器5.Size = new System.Drawing.Size(28, 35);
@@ -876,7 +894,7 @@ namespace dbcommfc7
             this.左洞慢车道指示器4.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.左洞慢车道指示器4.ImageKey = "左指示灯.png";
             this.左洞慢车道指示器4.ImageList = this.车道指示器按钮图片集;
-            this.左洞慢车道指示器4.Location = new System.Drawing.Point(875, 76);
+            this.左洞慢车道指示器4.Location = new System.Drawing.Point(893, 103);
             this.左洞慢车道指示器4.Name = "左洞慢车道指示器4";
             this.左洞慢车道指示器4.RightToLeft = System.Windows.Forms.RightToLeft.Yes;
             this.左洞慢车道指示器4.Size = new System.Drawing.Size(28, 35);
@@ -890,7 +908,7 @@ namespace dbcommfc7
             this.左洞慢车道指示器3.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.左洞慢车道指示器3.ImageKey = "左指示灯.png";
             this.左洞慢车道指示器3.ImageList = this.车道指示器按钮图片集;
-            this.左洞慢车道指示器3.Location = new System.Drawing.Point(1088, 76);
+            this.左洞慢车道指示器3.Location = new System.Drawing.Point(1070, 103);
             this.左洞慢车道指示器3.Name = "左洞慢车道指示器3";
             this.左洞慢车道指示器3.RightToLeft = System.Windows.Forms.RightToLeft.Yes;
             this.左洞慢车道指示器3.Size = new System.Drawing.Size(28, 35);
@@ -904,7 +922,7 @@ namespace dbcommfc7
             this.左洞慢车道指示器2.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.左洞慢车道指示器2.ImageKey = "左指示灯.png";
             this.左洞慢车道指示器2.ImageList = this.车道指示器按钮图片集;
-            this.左洞慢车道指示器2.Location = new System.Drawing.Point(1192, 76);
+            this.左洞慢车道指示器2.Location = new System.Drawing.Point(1192, 103);
             this.左洞慢车道指示器2.Name = "左洞慢车道指示器2";
             this.左洞慢车道指示器2.RightToLeft = System.Windows.Forms.RightToLeft.Yes;
             this.左洞慢车道指示器2.Size = new System.Drawing.Size(28, 35);
@@ -918,7 +936,7 @@ namespace dbcommfc7
             this.左洞慢车道指示器1.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.左洞慢车道指示器1.ImageKey = "左指示灯.png";
             this.左洞慢车道指示器1.ImageList = this.车道指示器按钮图片集;
-            this.左洞慢车道指示器1.Location = new System.Drawing.Point(1290, 76);
+            this.左洞慢车道指示器1.Location = new System.Drawing.Point(1290, 103);
             this.左洞慢车道指示器1.Name = "左洞慢车道指示器1";
             this.左洞慢车道指示器1.RightToLeft = System.Windows.Forms.RightToLeft.Yes;
             this.左洞慢车道指示器1.Size = new System.Drawing.Size(28, 35);
@@ -929,13 +947,211 @@ namespace dbcommfc7
             // Background
             // 
             this.Background.BackColor = System.Drawing.Color.Transparent;
-            this.Background.Image = global::dbcommfc7.Properties.Resources.底图2;
-            this.Background.Location = new System.Drawing.Point(35, 66);
+            this.Background.Image = global::dbcommfc7.Properties.Resources.底图3;
+            this.Background.Location = new System.Drawing.Point(14, 89);
             this.Background.Name = "Background";
-            this.Background.Size = new System.Drawing.Size(1241, 320);
-            this.Background.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.Background.Size = new System.Drawing.Size(1322, 343);
+            this.Background.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.Background.TabIndex = 1;
             this.Background.TabStop = false;
+            // 
+            // label2
+            // 
+            this.label2.AutoSize = true;
+            this.label2.Font = new System.Drawing.Font("宋体", 14.14286F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
+            this.label2.Location = new System.Drawing.Point(76, 65);
+            this.label2.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
+            this.label2.Name = "label2";
+            this.label2.Size = new System.Drawing.Size(79, 19);
+            this.label2.TabIndex = 51;
+            this.label2.Text = "ZK1+205";
+            // 
+            // label3
+            // 
+            this.label3.AutoSize = true;
+            this.label3.Font = new System.Drawing.Font("宋体", 14.14286F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
+            this.label3.Location = new System.Drawing.Point(195, 65);
+            this.label3.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
+            this.label3.Name = "label3";
+            this.label3.Size = new System.Drawing.Size(79, 19);
+            this.label3.TabIndex = 52;
+            this.label3.Text = "ZK1+625";
+            // 
+            // label4
+            // 
+            this.label4.AutoSize = true;
+            this.label4.Font = new System.Drawing.Font("宋体", 14.14286F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
+            this.label4.Location = new System.Drawing.Point(352, 65);
+            this.label4.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
+            this.label4.Name = "label4";
+            this.label4.Size = new System.Drawing.Size(79, 19);
+            this.label4.TabIndex = 53;
+            this.label4.Text = "ZK2+115";
+            // 
+            // label5
+            // 
+            this.label5.AutoSize = true;
+            this.label5.Font = new System.Drawing.Font("宋体", 14.14286F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
+            this.label5.Location = new System.Drawing.Point(493, 65);
+            this.label5.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
+            this.label5.Name = "label5";
+            this.label5.Size = new System.Drawing.Size(79, 19);
+            this.label5.TabIndex = 54;
+            this.label5.Text = "ZK2+625";
+            // 
+            // label6
+            // 
+            this.label6.AutoSize = true;
+            this.label6.Font = new System.Drawing.Font("宋体", 14.14286F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
+            this.label6.Location = new System.Drawing.Point(731, 65);
+            this.label6.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
+            this.label6.Name = "label6";
+            this.label6.Size = new System.Drawing.Size(79, 19);
+            this.label6.TabIndex = 55;
+            this.label6.Text = "ZK3+125";
+            // 
+            // label7
+            // 
+            this.label7.AutoSize = true;
+            this.label7.Font = new System.Drawing.Font("宋体", 14.14286F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
+            this.label7.Location = new System.Drawing.Point(869, 65);
+            this.label7.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
+            this.label7.Name = "label7";
+            this.label7.Size = new System.Drawing.Size(79, 19);
+            this.label7.TabIndex = 56;
+            this.label7.Text = "ZK3+625";
+            // 
+            // label8
+            // 
+            this.label8.AutoSize = true;
+            this.label8.Font = new System.Drawing.Font("宋体", 14.14286F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
+            this.label8.Location = new System.Drawing.Point(1045, 65);
+            this.label8.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
+            this.label8.Name = "label8";
+            this.label8.Size = new System.Drawing.Size(79, 19);
+            this.label8.TabIndex = 57;
+            this.label8.Text = "ZK4+122";
+            // 
+            // label9
+            // 
+            this.label9.AutoSize = true;
+            this.label9.Font = new System.Drawing.Font("宋体", 14.14286F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
+            this.label9.Location = new System.Drawing.Point(1168, 65);
+            this.label9.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
+            this.label9.Name = "label9";
+            this.label9.Size = new System.Drawing.Size(79, 19);
+            this.label9.TabIndex = 58;
+            this.label9.Text = "ZK4+633";
+            // 
+            // label10
+            // 
+            this.label10.AutoSize = true;
+            this.label10.Font = new System.Drawing.Font("宋体", 14.14286F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
+            this.label10.Location = new System.Drawing.Point(1264, 65);
+            this.label10.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
+            this.label10.Name = "label10";
+            this.label10.Size = new System.Drawing.Size(79, 19);
+            this.label10.TabIndex = 59;
+            this.label10.Text = "ZK4+834";
+            // 
+            // label11
+            // 
+            this.label11.AutoSize = true;
+            this.label11.Font = new System.Drawing.Font("宋体", 14.14286F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
+            this.label11.Location = new System.Drawing.Point(76, 399);
+            this.label11.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
+            this.label11.Name = "label11";
+            this.label11.Size = new System.Drawing.Size(79, 19);
+            this.label11.TabIndex = 60;
+            this.label11.Text = "YK1+195";
+            // 
+            // label12
+            // 
+            this.label12.AutoSize = true;
+            this.label12.Font = new System.Drawing.Font("宋体", 14.14286F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
+            this.label12.Location = new System.Drawing.Point(202, 399);
+            this.label12.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
+            this.label12.Name = "label12";
+            this.label12.Size = new System.Drawing.Size(79, 19);
+            this.label12.TabIndex = 61;
+            this.label12.Text = "YK1+625";
+            // 
+            // label13
+            // 
+            this.label13.AutoSize = true;
+            this.label13.Font = new System.Drawing.Font("宋体", 14.14286F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
+            this.label13.Location = new System.Drawing.Point(352, 399);
+            this.label13.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
+            this.label13.Name = "label13";
+            this.label13.Size = new System.Drawing.Size(79, 19);
+            this.label13.TabIndex = 62;
+            this.label13.Text = "YK2+120";
+            // 
+            // label14
+            // 
+            this.label14.AutoSize = true;
+            this.label14.Font = new System.Drawing.Font("宋体", 14.14286F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
+            this.label14.Location = new System.Drawing.Point(493, 399);
+            this.label14.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
+            this.label14.Name = "label14";
+            this.label14.Size = new System.Drawing.Size(79, 19);
+            this.label14.TabIndex = 63;
+            this.label14.Text = "YK2+627";
+            // 
+            // label15
+            // 
+            this.label15.AutoSize = true;
+            this.label15.Font = new System.Drawing.Font("宋体", 14.14286F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
+            this.label15.Location = new System.Drawing.Point(731, 399);
+            this.label15.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
+            this.label15.Name = "label15";
+            this.label15.Size = new System.Drawing.Size(79, 19);
+            this.label15.TabIndex = 64;
+            this.label15.Text = "YK3+127";
+            // 
+            // label16
+            // 
+            this.label16.AutoSize = true;
+            this.label16.Font = new System.Drawing.Font("宋体", 14.14286F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
+            this.label16.Location = new System.Drawing.Point(869, 399);
+            this.label16.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
+            this.label16.Name = "label16";
+            this.label16.Size = new System.Drawing.Size(79, 19);
+            this.label16.TabIndex = 65;
+            this.label16.Text = "YK3+625";
+            // 
+            // label17
+            // 
+            this.label17.AutoSize = true;
+            this.label17.Font = new System.Drawing.Font("宋体", 14.14286F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
+            this.label17.Location = new System.Drawing.Point(1045, 399);
+            this.label17.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
+            this.label17.Name = "label17";
+            this.label17.Size = new System.Drawing.Size(79, 19);
+            this.label17.TabIndex = 66;
+            this.label17.Text = "YK4+127";
+            // 
+            // label18
+            // 
+            this.label18.AutoSize = true;
+            this.label18.Font = new System.Drawing.Font("宋体", 14.14286F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
+            this.label18.Location = new System.Drawing.Point(1168, 441);
+            this.label18.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
+            this.label18.Name = "label18";
+            this.label18.Size = new System.Drawing.Size(79, 19);
+            this.label18.TabIndex = 67;
+            this.label18.Text = "YK4+627";
+            // 
+            // label19
+            // 
+            this.label19.AutoSize = true;
+            this.label19.Font = new System.Drawing.Font("宋体", 14.14286F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
+            this.label19.Location = new System.Drawing.Point(1264, 441);
+            this.label19.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
+            this.label19.Name = "label19";
+            this.label19.Size = new System.Drawing.Size(79, 19);
+            this.label19.TabIndex = 68;
+            this.label19.Text = "YK4+914";
             // 
             // LaneLightController
             // 
@@ -943,6 +1159,24 @@ namespace dbcommfc7
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.SystemColors.ActiveBorder;
             this.ClientSize = new System.Drawing.Size(1350, 729);
+            this.Controls.Add(this.label19);
+            this.Controls.Add(this.label18);
+            this.Controls.Add(this.label17);
+            this.Controls.Add(this.label16);
+            this.Controls.Add(this.label15);
+            this.Controls.Add(this.label14);
+            this.Controls.Add(this.label13);
+            this.Controls.Add(this.label12);
+            this.Controls.Add(this.label11);
+            this.Controls.Add(this.label10);
+            this.Controls.Add(this.label9);
+            this.Controls.Add(this.label8);
+            this.Controls.Add(this.label7);
+            this.Controls.Add(this.label6);
+            this.Controls.Add(this.label5);
+            this.Controls.Add(this.label4);
+            this.Controls.Add(this.label3);
+            this.Controls.Add(this.label2);
             this.Controls.Add(this.右洞超车道指示器9);
             this.Controls.Add(this.右洞超车道指示器8);
             this.Controls.Add(this.右洞超车道指示器7);
@@ -1081,6 +1315,24 @@ namespace dbcommfc7
         private System.Windows.Forms.Button 右洞超车道指示器7;
         private System.Windows.Forms.Button 右洞超车道指示器8;
         private System.Windows.Forms.Button 右洞超车道指示器9;
+        private System.Windows.Forms.Label label2;
+        private System.Windows.Forms.Label label3;
+        private System.Windows.Forms.Label label4;
+        private System.Windows.Forms.Label label5;
+        private System.Windows.Forms.Label label6;
+        private System.Windows.Forms.Label label7;
+        private System.Windows.Forms.Label label8;
+        private System.Windows.Forms.Label label9;
+        private System.Windows.Forms.Label label10;
+        private System.Windows.Forms.Label label11;
+        private System.Windows.Forms.Label label12;
+        private System.Windows.Forms.Label label13;
+        private System.Windows.Forms.Label label14;
+        private System.Windows.Forms.Label label15;
+        private System.Windows.Forms.Label label16;
+        private System.Windows.Forms.Label label17;
+        private System.Windows.Forms.Label label18;
+        private System.Windows.Forms.Label label19;
     }
 }
 

@@ -124,8 +124,14 @@
   <data name="底图1" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\隧道指示器情报板系统\底图.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
+  <data name="隧道情报板指示灯21" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\隧道指示器情报板系统\隧道情报板指示灯2.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
   <data name="隧道情报板指示灯2" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\隧道指示器情报板系统\隧道情报板指示灯2.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="底图2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\隧道指示器情报板系统\底图.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="2.5D" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\隧道指示器情报板系统\2.5D.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
@@ -136,11 +142,11 @@
   <data name="红灯" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\隧道指示器情报板系统\红灯.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="灯的支架" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\隧道指示器情报板系统\灯的支架.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
   <data name="左指示灯" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\隧道指示器情报板系统\左指示灯.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="拓展道路" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\隧道指示器情报板系统\拓展道路.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="车道" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\隧道指示器情报板系统\车道.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
@@ -151,23 +157,20 @@
   <data name="人行" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\隧道指示器情报板系统\人行.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="屏幕截图 2026-03-22 120622" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\隧道指示器情报板系统\屏幕截图 2026-03-22 120622.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
   <data name="隧道情报板指示灯" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\隧道指示器情报板系统\隧道情报板指示灯.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="灯的支架" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\隧道指示器情报板系统\灯的支架.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="底图" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\隧道指示器情报板系统\底图.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="隧道情报板指示灯21" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\隧道指示器情报板系统\隧道情报板指示灯2.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="屏幕截图 2026-03-22 120622" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\隧道指示器情报板系统\屏幕截图 2026-03-22 120622.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="右指示灯" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\隧道指示器情报板系统\右指示灯.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="逆行" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\隧道指示器情报板系统\逆行.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="小牌子" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\隧道指示器情报板系统\小牌子.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
@@ -175,10 +178,10 @@
   <data name="面板" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\隧道指示器情报板系统\面板.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="拓展道路" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\隧道指示器情报板系统\拓展道路.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="逆行" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\隧道指示器情报板系统\逆行.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="底图2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+  <data name="底图3" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\隧道指示器情报板系统\底图.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
 </root>

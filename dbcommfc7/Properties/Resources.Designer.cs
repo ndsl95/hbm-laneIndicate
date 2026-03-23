@@ -173,6 +173,16 @@ namespace dbcommfc7.Properties {
         /// <summary>
         ///   查找 System.Drawing.Bitmap 类型的本地化资源。
         /// </summary>
+        internal static System.Drawing.Bitmap 底图3 {
+            get {
+                object obj = ResourceManager.GetObject("底图3", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   查找 System.Drawing.Bitmap 类型的本地化资源。
+        /// </summary>
         internal static System.Drawing.Bitmap 拓展道路 {
             get {
                 object obj = ResourceManager.GetObject("拓展道路", resourceCulture);

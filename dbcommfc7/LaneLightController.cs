@@ -1,4 +1,4 @@
-﻿﻿﻿﻿﻿﻿﻿﻿﻿using System;
+using System;
 using System.Windows.Forms;
 using System.IO;
 using System.Data;
@@ -18,6 +18,9 @@ namespace dbcommfc7
 
         private void LaneLightController_Load(object sender, EventArgs e)
         {
+            this.FormBorderStyle = FormBorderStyle.FixedSingle;
+            // 禁用最大化按钮
+            this.MaximizeBox = false;
             LoadEquipmentDatabase();
         }
 
