@@ -1,4 +1,4 @@
-
+﻿
 using System.Drawing;
 using System.Net;
 using System.Net.Sockets;
@@ -103,12 +103,12 @@ namespace dbcommfc7
             // 
             // logTextBox
             // 
-            this.logTextBox.Location = new System.Drawing.Point(1538, 910);
+            this.logTextBox.Location = new System.Drawing.Point(526, 910);
             this.logTextBox.Margin = new System.Windows.Forms.Padding(6, 5, 6, 5);
             this.logTextBox.Name = "logTextBox";
             this.logTextBox.ReadOnly = true;
             this.logTextBox.ScrollBars = System.Windows.Forms.RichTextBoxScrollBars.ForcedBoth;
-            this.logTextBox.Size = new System.Drawing.Size(921, 345);
+            this.logTextBox.Size = new System.Drawing.Size(1933, 345);
             this.logTextBox.TabIndex = 0;
             this.logTextBox.Text = "";
             // 
